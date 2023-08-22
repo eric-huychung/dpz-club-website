@@ -164,6 +164,7 @@ body {
       padding-right: 8px;
       margin-top: -3px; }
   .about h1, .values h1, .fathers h1 {
+    margin-top: 100px;
     font-size: 50px;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #FFFFB7;
@@ -312,7 +313,7 @@ body {
 .container {
   position: relative;
   width: 50%;
-  height: 20%;
+  height: 50%;
   margin-top: 10%;
   padding: 50px;
   background-color: #f5f5f5;
@@ -332,7 +333,6 @@ body {
   position: absolute;
   z-index: 1;
   top: 50%;
-  transform: translate(0, -50%);
   border-radius: 10px;
   box-shadow: 0 30px 50px #505050; }
 
